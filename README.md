@@ -9,14 +9,18 @@
 Repository ini berisi implementasi pengujian Black-Box Testing pada studi kasus Sistem Peminjaman Ruang Diskusi Kampus untuk memenuhi tugas mata kuliah Pengujian Perangkat Lunak.
 
 ### Requirement Sistem
+
 **1) FR-01: Validasi Durasi Pinjam**
 - Durasi peminjaman harus 1–4 jam
 - Jika di luar rentang maka sistem menolak
+
 **2) FR-02: Aturan Peminjaman Ruang**
+
 Mahasiswa dapat meminjam ruang jika:
 - Mahasiswa terdaftar
 - Tidak memiliki pelanggaran
 - Ruang tersedia
+  
 **3) FR-03: Status Ruang**
 - Ruang hanya bisa dipinjam jika AVAILABLE
 - Tidak boleh loncat state
